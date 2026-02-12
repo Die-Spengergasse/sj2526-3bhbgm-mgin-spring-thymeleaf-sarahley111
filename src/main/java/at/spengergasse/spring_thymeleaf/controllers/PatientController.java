@@ -37,4 +37,7 @@ public class PatientController {
         patientRepository.save(patient);
         return  "redirect:/patient/list";
     }
+    // PatientRepository wird über Konstruktor-Injektion in den Controller eingebunden, damit wir auf die Datenbank zugreifen können
+    // findAll() -> alle Patienten aus der Datenbank holen und an das Model übergeben, damit sie in der View angezeigt werden können (als Liste)
+
 }
