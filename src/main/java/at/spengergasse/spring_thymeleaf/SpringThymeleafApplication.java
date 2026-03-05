@@ -10,11 +10,6 @@ public class SpringThymeleafApplication {
         SpringApplication.run(SpringThymeleafApplication.class, args);
     }
 
-    /* Startet Framework hoch und sucht alle Klassen mit
-    Springboot appl. macht von ihnen eine Instanz und verknüpft sie
-    Gesamtsystem; stellt verknüpfung her (autom)
-    tabelle wird autom erstellt
 
 
-     */
 }
